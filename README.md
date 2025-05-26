@@ -3,5 +3,22 @@
 ## Install
 
 ```
-pip install 
+pip install git+https://github.com/chogamy/DecoratorLogger.git
+```
+
+## How to use it?
+
+```
+from decorator_logger.DecoratorLogger import DecoratorLogger
+
+dl = DecoratorLogger("./logs/app.log")
+
+
+@dl.time_logging
+def test(aa):
+    return "aaaaaaaaaaaaaaaa"
+
+
+test("aaaa")
+
 ```
