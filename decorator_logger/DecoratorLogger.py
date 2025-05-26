@@ -1,3 +1,4 @@
+import os
 import logging
 import time
 from functools import wraps
@@ -5,6 +6,8 @@ from functools import wraps
 
 class DecoratorLogger:
     def __init__(self, path):
+        folder = path.rsplit(os.sep, 1)[0]
+        os.makedirs(folder, exist_ok=True)
         self.app_logger = logging.getLogger("app")
         self.app_logger.setLevel(logging.INFO)
         self.app_handler = logging.FileHandler(path, mode="a")
