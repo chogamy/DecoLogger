@@ -9,7 +9,7 @@ pip install git+https://github.com/chogamy/DecoratorLogger.git
 ## How to use it?
 
 ```
-from decorator_logger.DecoratorLogger import DecoratorLogger
+from DecoratorLogger.DecoratorLogger import DecoratorLogger
 
 dl = DecoratorLogger("./logs/app.log")
 
