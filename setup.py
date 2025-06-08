@@ -1,7 +1,12 @@
 from setuptools import setup, find_packages
 
+with open("README.md", encoding="utf-8") as f:
+    long_description = f.read()
+
 setup(
     name="DecoLogger",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     version="0.0.1",
     description="It is the DecoLogger",
     author="chogamy",
