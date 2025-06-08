@@ -3,15 +3,15 @@
 ## Install
 
 ```
-pip install git+https://github.com/chogamy/DecoratorLogger.git
+pip install DecoLogger
 ```
 
 ## How to use it?
 
 ```
-from DecoratorLogger.DecoratorLogger import DecoratorLogger
+from DecoLogger.DecoLogger import DecoLogger
 
-dl = DecoratorLogger("./logs/app.log")
+dl = DecoLogger("./logs/app.log")
 
 
 @dl.error_logging
