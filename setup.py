@@ -7,7 +7,7 @@ setup(
     name="DecoLogger",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    version="0.0.4",
+    version="0.0.5",
     description="It is the DecoLogger",
     author="chogamy",
     author_email="gamy0315@gmail.com",
