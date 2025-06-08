@@ -9,7 +9,7 @@ pip install DecoLogger
 ## How to use it?
 
 ```
-from decologger.DecoLogger import DecoLogger
+from DecoLogger.DecoLogger import DecoLogger
 
 dl = DecoLogger("./logs/app.log")
 
