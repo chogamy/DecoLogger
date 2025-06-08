@@ -1,12 +1,12 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="DecoratorLogger",
+    name="DecoLogger",
     version="0.0.1",
-    description="Literally Decorator Logger!!",
+    description="It is the DecoLogger",
     author="chogamy",
     author_email="gamy0315@gmail.com",
-    url="https://github.com/chogamy/DecoratorLogger",
+    url="https://github.com/chogamy/DecoLogger",
     install_requires=[],
     packages=find_packages(exclude=[]),
     keywords=["logger", "decorator", "time", "error"],
